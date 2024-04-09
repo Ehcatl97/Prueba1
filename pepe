@@ -1,0 +1,7 @@
+import random
+caracteres = ("+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890")
+x=int(input("cuantos caracteres quieres que tenga tu contraseña?"))
+z=""
+for i in range (x):
+    z+=random.choice(caracteres)
+print (z)
